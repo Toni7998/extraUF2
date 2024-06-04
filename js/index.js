@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
-
+    
     // Seleccionem els elements
     const playButton = document.getElementById('playButton');
     const landingSound = document.getElementById('landingSound');
@@ -7,11 +7,12 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Afegim l'event de clic al botó
     playButton.addEventListener('click', function () {
-
+    
         // Reproduim el audio
         landingSound.play();
 
         // Iniciaem l' animación de la nau 
-        rocket.style.bottom = '10%';
+        rocket.style.bottom = '8%';
     });
+
 });
