@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function () {
         landingSound.play();
 
         // Iniciaem l' animación de la nau 
-        rocket.style.bottom = '8%';
+        rocket.style.bottom = '45%';
     });
 
 });

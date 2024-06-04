@@ -41,8 +41,8 @@ body {
     bottom: 100%;
     left: 50%;
     transform: translateX(-50%);
-    width: 50px;
-    transition: bottom 3s ease-in-out;
+    width: 80px;
+    transition: bottom 2s ease-in-out;
 }
 
 @media (max-width: 550px) {
