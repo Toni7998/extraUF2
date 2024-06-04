@@ -1,0 +1,11 @@
+#playButton {
+    cursor: pointer;
+}
+
+#circle {
+    fill: lightgray;
+}
+
+#triangle {
+    fill: black;
+}
