@@ -1,5 +1,16 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
 #playButton {
     cursor: pointer;
+    margin-bottom: 20px;
 }
 
 #circle {
@@ -8,4 +19,32 @@
 
 #triangle {
     fill: black;
+}
+
+#surface-container {
+    position: relative;
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#surface {
+    width: 100%;
+    height: auto;
+    border: 10px solid #000;
+}
+
+#rocket {
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50px;
+    transition: bottom 3s ease-in-out;
+}
+
+@media (max-width: 600px) {
+    #rocket {
+        width: 30px;
+    }
 }
